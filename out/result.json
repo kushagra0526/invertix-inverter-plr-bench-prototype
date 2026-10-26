@@ -1,0 +1,50 @@
+{
+ "dev": {
+  "slope": {
+   "precision_pct": 72.4,
+   "recall_pct": 93.2,
+   "false_flags": 125,
+   "missed": 24,
+   "median_abs_plr_error_pts": 0.41
+  },
+  "yoy": {
+   "precision_pct": 95.9,
+   "recall_pct": 98.9,
+   "false_flags": 15,
+   "missed": 4,
+   "median_abs_plr_error_pts": 0.26
+  },
+  "yoy+flags+events+ci": {
+   "precision_pct": 96.9,
+   "recall_pct": 98.9,
+   "false_flags": 11,
+   "missed": 4,
+   "median_abs_plr_error_pts": 0.28
+  },
+  "ci_coverage_of_true_plr_pct": 98.9
+ },
+ "held_out": {
+  "slope": {
+   "precision_pct": 69.0,
+   "recall_pct": 88.5,
+   "false_flags": 240,
+   "missed": 69,
+   "median_abs_plr_error_pts": 0.79
+  },
+  "yoy": {
+   "precision_pct": 94.9,
+   "recall_pct": 92.7,
+   "false_flags": 30,
+   "missed": 44,
+   "median_abs_plr_error_pts": 0.54
+  },
+  "yoy+flags+events+ci": {
+   "precision_pct": 93.7,
+   "recall_pct": 95.7,
+   "false_flags": 39,
+   "missed": 26,
+   "median_abs_plr_error_pts": 0.67
+  },
+  "ci_coverage_of_true_plr_pct": 76.7
+ }
+}
